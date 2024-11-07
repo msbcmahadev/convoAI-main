@@ -1,0 +1,16 @@
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 2rem 1.5rem; /* gap-x-6 gap-y-10 */
+    padding-top: 2.5rem; /* pt-10 */
+  }
+  
+  @media (max-width: 768px) {
+    .grid-layout {
+      display: block; /* Switches from grid to block layout on smaller screens */
+      padding-top: 1rem; /* Adjust padding for tablet view */
+    }
+  }
+  

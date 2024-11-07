@@ -1,0 +1,89 @@
+/* Header container */
+.header {
+  background: transparent;
+  box-shadow: none;
+  margin-top: 30px;
+}
+
+/* Toolbar styling */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+/* Logo styling */
+.logo {
+  width: 100px;
+  margin-top: 20px;
+}
+@media (min-width: 300px) {
+  .logo {
+    width: 100px;
+  }
+}
+
+@media (min-width: 600px) {
+  .logo {
+    width: 140px;
+  }
+}
+
+@media (min-width: 960px) {
+  .logo {
+    width: 180px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .logo {
+    width: 300px;
+  }
+}
+
+@media (min-width: 3840px) {
+  .logo {
+    width: 400px;
+  }
+}
+
+/* Title styling */
+.title {
+  font-weight: 700;
+  /* margin-right: 20; */
+  font-size: 13px;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 200px;
+  border: 1px solid #d7d7d7;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .title {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+}
+
+@media (min-width: 960px) {
+  .title {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .title {
+    font-size: 30px;
+    padding: 12px 24px;
+  }
+}
+
+@media (min-width: 3840px) {
+  .title {
+    font-size: 36px;
+    padding: 16px 32px;
+  }
+}

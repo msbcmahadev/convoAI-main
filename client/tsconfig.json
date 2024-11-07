@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Adjust according to your needs
+    "lib": ["ES2020", "DOM"], // Adjust the libraries as needed
+    "module": "ESNext", // Module system
+    "jsx": "react-jsx", // Allow JSX syntax
+    "allowJs": true, // Allow JavaScript files
+    "checkJs": false, // Disable checking of JavaScript files
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "strict": true, // Enable all strict type-checking options
+    "moduleResolution": "node", // Module resolution strategy
+    "isolatedModules": true // Ensure that each file can be transpiled independently
+  },
+  "include": [
+    "src/**/*", // Include all files in src
+    "src/**/*.js", // Include JavaScript files
+    "src/**/*.jsx", // Include JSX files
+    "src/**/*.ts", // Include TypeScript files
+    "src/**/*.tsx" // Include TypeScript JSX files
+  ],
+  "exclude": [
+    "node_modules" // Exclude node_modules
+  ]
+}
